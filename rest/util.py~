@@ -1,7 +1,0 @@
-import urllib2
-
-
-def get_gut():
-    url = urllib2.urlopen( 'http://www.gutenberg.org/ebooks/1228')
-    text = u.read()
-    return text
