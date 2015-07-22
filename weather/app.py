@@ -10,7 +10,7 @@ def root( ):
         while " " in city:
             city=city[:city.find(" ")]+"_"+city[city.find(" ")+1:]
     else:
-        city="nyc"
+        city="New_York_City"
     temp = util.get_weather(city)
     temp = (temp-273.15)*1.8+32
     while "_" in city:
